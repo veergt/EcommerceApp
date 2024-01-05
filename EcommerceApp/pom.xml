@@ -78,6 +78,20 @@
     
     
   </dependencies>
+      <distributionManagement>
+	     <repository>
+	      <id>nexus</id>
+	      <name>maven-rep-Release</name>
+	      <url>http://54.234.254.157:8081/repository/maven-rep-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>maven-rep-snapshot</name>
+	      <url>http://54.234.254.157:8081/repository/maven-rep-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <finalName>EcommerceApp</finalName>
   </build>
